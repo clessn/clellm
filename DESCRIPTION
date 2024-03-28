@@ -7,8 +7,8 @@ Maintainer: Laurence-Olivier <mail@mfoisy.com>
 Description: This package provides tools to install Ollama and interact with its API from R.
 License: The Unlicense
 Imports: 
-    httr
-    base64enc
+    httr,
+    base64enc,
     jsonlite
 Suggests: 
     testthat

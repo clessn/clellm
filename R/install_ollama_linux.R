@@ -30,6 +30,6 @@ install_ollama <- function() {
     system("systemctl enable ollama", intern = FALSE)
     system("systemctl start ollama", intern = FALSE)
   } else {
-    stop("Ollama bash installation is currently only supported on Linux. If you have a Mac you should download the installer from https://ollama.ai/download and run it manually. If you have a Windows machine, you should switch to a Linux machine or a Mac.")
+    stop("Ollama shell installation is currently only supported on Linux. If you have a Mac you should download the installer from https://ollama.ai/download and run it manually. If you have a Windows machine, you should switch to a Linux machine or a Mac.")
   }
 }

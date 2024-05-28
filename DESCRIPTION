@@ -4,7 +4,7 @@ Version: 0.1.0
 Date: 2024-02-06
 Author: Laurence-Olivier
 Maintainer: Laurence-Olivier <mail@mfoisy.com>
-Description: This package provides tools to install Ollama and interact with its API from R.
+Description: This package provides tools to Interact with Ollama and OpenAIs API.
 License: The Unlicense
 Imports: 
     httr,

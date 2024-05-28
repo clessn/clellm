@@ -2,6 +2,7 @@
 
 export(gpt_vision)
 export(install_ollama)
+export(ollama_install_model)
 export(ollama_prompt)
 import(base64enc)
 import(httr)

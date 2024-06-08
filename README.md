@@ -92,7 +92,7 @@ The function does not return a value. It executes a system command to install th
 ollama_install_model("mistral")
 ```
 
-## pollama_prompt
+## ollama_prompt
 
 Call the Ollama API. This function makes a POST request to the Ollama API with the specified prompt, model, and format. It optionally prints the response based on the print_result parameter.
 

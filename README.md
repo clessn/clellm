@@ -119,10 +119,6 @@ The response content from the API.
 ollama_prompt("Why is the sky blue?", model = "llama2", print_result = TRUE)
 ```
 
-## License
-
-This package is licensed under the MIT License. See the LICENSE file for details.
-
 ## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request on GitHub.

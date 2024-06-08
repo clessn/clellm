@@ -11,7 +11,7 @@ You can install the package from GitHub using devtools:
 install.packages("devtools")
 
 # Install the package from GitHub
-devtools::install_github("yourusername/yourpackage")
+devtools::install_github("clessn/clellm")
 ```
 
 # Functions

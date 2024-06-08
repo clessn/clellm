@@ -1,7 +1,8 @@
 # clellm
 
 This package provides functions to interact with OpenAI's GPT model for image analysis, install Ollama on Linux systems, install models with Ollama, and call the Ollama API. It is designed to facilitate easy interaction with these services through R functions.
-Installation
+
+# Installation
 
 You can install the package from GitHub using devtools:
 

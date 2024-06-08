@@ -26,100 +26,105 @@ gpt_vision(image_path, prompt = "What is in this image?", max_tokens = 1000)
 
 ### Arguments
 
-    `image_path`: The path to the image file that you want to analyze.
-    `prompt`: An optional prompt to guide the analysis. The default prompt is "What is in this image?".
-    `max_tokens`: The maximum number of tokens to generate in the response. Defaults to 1000.
+`image_path`: The path to the image file that you want to analyze.
+`prompt`: An optional prompt to guide the analysis. The default prompt is "What is in this image?".
+`max_tokens`: The maximum number of tokens to generate in the response. Defaults to 1000.
 
-Return Value
+### Return Value
 
 Returns the textual interpretation of the image from the GPT model. If no valid response is received, returns NULL.
-Example
 
-r
+### Example
 
+```r
 # Assuming you have set your OPENAI_API_KEY in your environment,
 # and you have an image at "path/to/your/image.jpg"
 result <- gpt_vision("path/to/your/image.jpg")
 cat(result)
+```
 
-install_ollama
+## install_ollama
 
 Install Ollama on a Linux system. This function automates the installation of Ollama by running the appropriate shell commands.
-Usage
 
-r
+### Usage
 
+```r
 install_ollama()
+```
 
-Details
+### Details
 
 The function first checks if the operating system is Linux. If so, it proceeds to run the installation commands. If the operating system is not Linux, the function will stop and print a message indicating that Ollama installation is only supported on Linux.
-Return Value
+
+### Return Value
 
 Invisible NULL. The function is primarily used for its side effects (installing Ollama) and does not return a value.
-Example
 
-r
+### Example
 
-\dontrun{
+```r
 install_ollama()
-}
+```
 
-ollama_install_model
+## ollama_install_model
 
 Install a model with Ollama. This function constructs and executes a system command to install a model using ollama pull.
-Usage
 
-r
+### Usage
 
+```r
 ollama_install_model(model_name)
+```
 
-Arguments
+### Arguments
 
-    model_name: A character string specifying the name of the model to install.
+`model_name`: A character string specifying the name of the model to install.
 
-Return Value
+### Return Value
 
 The function does not return a value. It executes a system command to install the specified model.
-Example
 
-r
+### Example
 
-\dontrun{
+```r
 ollama_install_model("mistral")
-}
+```
 
-ollama_prompt
+## pollama_prompt
 
 Call the Ollama API. This function makes a POST request to the Ollama API with the specified prompt, model, and format. It optionally prints the response based on the print_result parameter.
-Usage
 
-r
+### Usage
 
+```r
 ollama_prompt(prompt, model = "mistral", format = NULL, print_result = TRUE)
+```
 
-Arguments
+### Arguments
 
-    prompt: The prompt to send to the Ollama API.
-    model: The model to use, default is "mistral".
-    format: The format of the response, default is NULL.
-    print_result: Whether to print the result, default is TRUE.
+`prompt`: The prompt to send to the Ollama API.
+`model`: The model to use, default is "mistral".
+`format`: The format of the response, default is NULL.
+`print_result`: Whether to print the result, default is TRUE.
 
-Return Value
+### Return Value
 
 The response content from the API.
-Example
 
-r
+### Example
 
+```r
 ollama_prompt("Why is the sky blue?", model = "llama2", print_result = TRUE)
+```
 
-License
+## License
 
 This package is licensed under the MIT License. See the LICENSE file for details.
-Contributing
+
+## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request on GitHub.
 Contact
 
-For any questions or issues, please contact [yourname@domain.com].
+For any questions or issues, please contact [mail@mfoisy.com].

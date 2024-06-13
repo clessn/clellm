@@ -115,7 +115,7 @@ The response content from the API.
 
 ### Example
 
-```r
+>```r
 answer <- clellm::ollama_prompt("Why is the sky blue?", model = "llama3", print_result = FALSE)
 print(answer)
 

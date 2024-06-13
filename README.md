@@ -117,9 +117,30 @@ The response content from the API.
 
 ```r
 answer <- clellm::ollama_prompt("Why is the sky blue?", model = "llama3", print_result = FALSE)
-print(answer)
+cat(answer)
 ```
-> [1] "The color of the sky can vary depending on the time of day, atmospheric conditions, and the observer's location. However, under normal circumstances, the sky appears blue because of a phenomenon called Rayleigh scattering.\n\nRayleigh scattering is the scattering of light by small particles or molecules in the atmosphere. When sunlight enters Earth's atmosphere, it encounters tiny molecules of gases such as nitrogen (N2) and oxygen (O2). These molecules are much smaller than the wavelength of light, so they scatter the shorter, blue wavelengths more effectively than the longer, red wavelengths.\n\nAs a result, the blue light is distributed throughout the atmosphere, giving the sky its blue appearance. The scattering effect is more pronounced in the direction of the sun, which is why the sky often appears more intense blue near the horizon and gradually lightens as you move towards the zenith (directly overhead).\n\nHere's a breakdown of the factors that contribute to the blue color of the sky:\n\n1. **Sunlight**: The color of sunlight itself is white, but it contains all the colors of the visible spectrum.\n2. **Atmosphere**: The atmosphere is made up of gases like nitrogen and oxygen, which are much smaller than the wavelength of light.\n3. **Rayleigh scattering**: The shorter blue wavelengths are scattered more effectively by these small molecules, while the longer red wavelengths continue to travel in a straight line.\n4. **Scattering ratio**: The ratio of scattered blue light to unscattered red light determines the overall color of the sky.\n\nOther factors that can influence the apparent color of the sky include:\n\n* **Dust and pollutants**: Tiny particles in the air can scatter light in different ways, changing the sky's color.\n* **Water vapor**: High levels of water vapor in the atmosphere can cause the sky to appear more hazy or white.\n* **Clouds**: Clouds can reflect and scatter sunlight, making the sky appear whiter or grayer.\n* **Time of day**: The angle of the sun and the length of shadows can change the perceived color of the sky.\n\nSo, the next time you gaze up at a blue sky, remember that it's not just the color of the sky itself – it's the result of a fascinating interplay between sunlight, atmospheric gases, and scattering!"
+> The color of the sky can vary depending on the time of day, atmospheric conditions, and the observer's location. However, under normal circumstances, the sky appears blue because of a phenomenon called Rayleigh scattering.
+
+> Rayleigh scattering is the scattering of light by small particles or molecules in the atmosphere. When sunlight enters Earth's atmosphere, it encounters tiny molecules of gases such as nitrogen (N2) and oxygen (O2). These molecules are much smaller than the wavelength of light, so they scatter the shorter, blue wavelengths more effectively than the longer, red wavelengths.
+
+> As a result, the blue light is distributed throughout the atmosphere, giving the sky its blue appearance. The scattering effect is more pronounced in the direction of the sun, which is why the sky often appears more intense blue near the horizon and gradually lightens as you move towards the zenith (directly overhead).
+
+> Here's a breakdown of the factors that contribute to the blue color of the sky:
+
+> 1. **Sunlight**: The color of sunlight itself is white, but it contains all the colors of the visible spectrum.
+> 2. **Atmosphere**: The atmosphere is made up of gases like nitrogen and oxygen, which are much smaller than the wavelength of light.
+> 3. **Rayleigh scattering**: The shorter blue wavelengths are scattered more effectively by these small molecules, while the longer red wavelengths continue to travel in a straight line.
+> 4. **Scattering ratio**: The ratio of scattered blue light to unscattered red light determines the overall color of the sky.
+
+> Other factors that can influence the apparent color of the sky include:
+
+> * **Dust and pollutants**: Tiny particles in the air can scatter light in different ways, changing the sky's color.
+> * **Water vapor**: High levels of water vapor in the atmosphere can cause the sky to appear more hazy or white.
+> * **Clouds**: Clouds can reflect and scatter sunlight, making the sky appear whiter or grayer.
+> * **Time of day**: The angle of the sun and the length of shadows can change the perceived color of the sky.
+
+> So, the next time you gaze up at a blue sky, remember that it's not just the color of the sky itself – it's the result of a fascinating interplay between sunlight, atmospheric gases, and scattering!
+
 
 
 ## Contributing

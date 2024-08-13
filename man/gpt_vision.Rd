@@ -4,7 +4,12 @@
 \alias{gpt_vision}
 \title{Interact with OpenAI's GPT model for image analysis}
 \usage{
-gpt_vision(image_path, prompt = "What is in this image?", max_tokens = 1000)
+gpt_vision(
+  image_path,
+  prompt = "What is in this image?",
+  max_tokens = 1000,
+  model = "gpt4o"
+)
 }
 \arguments{
 \item{image_path}{The path to the image file that you want to analyze.}
@@ -12,6 +17,8 @@ gpt_vision(image_path, prompt = "What is in this image?", max_tokens = 1000)
 \item{prompt}{An optional prompt to guide the analysis. The default prompt is "What is in this image?".}
 
 \item{max_tokens}{The maximum number of tokens to generate in the response. Defaults to 1000.}
+
+\item{model}{The model you chose to use. gpt4o by default.}
 }
 \value{
 Returns the textual interpretation of the image from the GPT model. If no valid response is received,

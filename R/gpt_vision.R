@@ -41,7 +41,7 @@ gpt_vision <- function(image_path, prompt = "What is in this image?", max_tokens
   
   # Construct the payload
   payload <- list(
-    model = "gpt-4-vision-preview",
+    model = "GPT-4o",
     messages = list(
       list(
         role = "user",

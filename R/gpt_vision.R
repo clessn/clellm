@@ -22,7 +22,7 @@
 #' @import httr
 #' @import jsonlite
 #' @import base64enc
-gpt_vision <- function(image_path, prompt = "What is in this image?", max_tokens = 1000, model = "gpt4o") {
+gpt_vision <- function(image_path, prompt = "What is in this image?", max_tokens = 1000, model = "gpt-4o") {
 
   library(httr)
   library(jsonlite)

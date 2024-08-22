@@ -1,4 +1,5 @@
 Package: clellm
+Title: Interact with local LLMs directly in R
 Type: Package
 Version: 0.1.0
 Date: 2024-02-06
